@@ -1,4 +1,4 @@
-from typing import literal
+#from typing import literal
 class CashRegister():
     def __init__(self) :
         self.retail_list = []
