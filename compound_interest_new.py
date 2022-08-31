@@ -54,7 +54,6 @@ P = eval(P)
 P = int(P)
 init = input("Initial Principle : ")
 init = float(init)
-
 r = input("Interest rate : ")
 r = eval(r)
 r = float(r)
@@ -71,6 +70,7 @@ elif index =="2" :
        total = each_month(init,P,r,t)
        print("Do you want to keep investing ?")
        jj = input("Press y or n :      ")
+       print("+------------------------------+")
        if jj =="y" :
               #########################
               P1 = input("Investment each month : ")
