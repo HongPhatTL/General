@@ -22,7 +22,7 @@ def com_int(P,n,r,t) :
        print("+------------------------------+")
        return A 
 
-def each_month(init:float,P:int,r:float,t:int):
+def each_month(init : int,P : int,r : float,t : int):
        # P : the principle amount you invest each month
        # r : Interest per year
        # t : number of months
@@ -58,8 +58,6 @@ init = float(init)
 r = input("Interest rate : ")
 r = eval(r)
 r = float(r)
-#n = input("Number of time interest compound : ")
-#n = int(n)
 n = 365
 t = input("Time of investment : ")
 t = eval(t)
@@ -75,17 +73,17 @@ elif index =="2" :
        jj = input("Press y or n :      ")
        if jj =="y" :
               #########################
-              P = input("Investment each month : ")
-              P = eval(P)
-              P = int(P)
-              r = input("Interest rate : ")
-              r = eval(r)
-              r = float(r)
-              t = input("Time of investment : ")
-              t = eval(t)
-              t = int(t)
+              P1 = input("Investment each month : ")
+              P1 = eval(P1)
+              P1 = int(P1)
+              r1 = input("Interest rate : ")
+              r1 = eval(r1)
+              r1 = float(r1)
+              t1 = input("Time of investment : ")
+              t1 = eval(t1)
+              t1 = int(t1)
               #########################
-              later = each_month(total,P,r,t)
+              later = each_month(total,P1,r1,t1)
        else :
               pass
 else :
