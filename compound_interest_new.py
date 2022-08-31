@@ -1,4 +1,4 @@
-def com_int(P,n,r,t) :
+def com_int(P : int,n : int,r :float,t:int) :
        A = P*((1+r/n)**(n*t))
        A = int(A)
        aa = A
