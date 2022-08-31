@@ -81,7 +81,6 @@ elif index =="2" :
               r = input("Interest rate : ")
               r = eval(r)
               r = float(r)
-              n = 365
               t = input("Time of investment : ")
               t = eval(t)
               t = int(t)
