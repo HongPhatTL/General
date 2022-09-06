@@ -1,5 +1,5 @@
 from itertools import combinations
-list_ = [7,8,3,4,5,6]
+list_ = [9,7,8,3,4,5,6]
 target = 13
 result = []
 for i in range(1,len(list_)):

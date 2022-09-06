@@ -36,7 +36,6 @@ def each_month(init : int,P : int,r : float,t : int):
        print("+------------------------------+")
        basse = init + P * t
        diff = result - basse
-       #result = '{0:,}'.format(result)
        basse1 = '{0:,}'.format(basse)
        diff1 = '{0:,}'.format(diff)
        print(" Total if CI : {}".format(result1))
